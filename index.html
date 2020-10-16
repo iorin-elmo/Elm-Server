@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>test</title>
+</head>
+<body>
+<pre>
+<code>
+  <main/></main>
+</code>
+</pre>
+  <script src="client.js"></script>
+  <script type="text/javascript">
+    const app =
+      Elm.Client.init({
+        node: document.querySelector('main'),
+        flags: ~host~
+      });
+  </script>
+
+</body>
+</html>
